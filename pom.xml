@@ -58,12 +58,13 @@
 							<inputSpec>
 								${project.basedir}/src/main/resources/openapi/openapi.yml</inputSpec>
 							<generatorName>spring</generatorName>
+							<apiPackage>fr.bred.example.interview.rest.apis</apiPackage>
+							<modelPackage>fr.bred.example.interview.rest.dtos</modelPackage>
 							<configOptions>
 								<sourceFolder>src/gen/java/main</sourceFolder>
 								<useSpringBoot3>true</useSpringBoot3>
 								<openApiNullable>false</openApiNullable>
 								<interfaceOnly>true</interfaceOnly>
-								<dateLibrary>custom</dateLibrary>
 							</configOptions>
 						</configuration>
 					</execution>

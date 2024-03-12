@@ -3,6 +3,9 @@ info:
   title: Cities API
   version: 1.0.0
   description: Manage cities
+servers:
+  - url: http://localhost:8080
+    description: Local Server
 paths:
   /api/cities:
     summary: Path used to manage the list of cities.

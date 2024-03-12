@@ -1,1 +1,4 @@
-
+# Configure logging levels
+logging:
+  level:
+    root: INFO
